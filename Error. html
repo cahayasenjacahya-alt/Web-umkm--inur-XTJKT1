@@ -1,1 +1,21 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Tidak Ditemukan | Dapur Coklat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="error-page">
+  <main class="error-card">
+    <div class="error-illustration" aria-hidden="true">🍫</div>
+    <p class="eyebrow">Oops, ada kendala</p>
+    <h1>404</h1>
+    <h2>Halaman tidak ditemukan</h2>
+    <p>Maaf, halaman yang kamu cari tidak tersedia atau alamatnya sudah berubah.</p>
+    <a class="button button-primary" href="index.html">Kembali ke Beranda</a>
+    <p class="error-help">Jika masalah terus terjadi, silakan periksa kembali alamat halaman.</p>
+  </main>
+</body>
+</html>
 
