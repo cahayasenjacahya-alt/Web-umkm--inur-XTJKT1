@@ -1,1 +1,99 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dapur Coklat menyediakan aneka kue dan camilan cokelat yang dibuat dengan penuh cinta.">
+  <title>Dapur Coklat | Manis di Setiap Gigitan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda"><span class="brand-icon">🍫</span> Dapur Coklat</a>
+      <div class="nav-links">
+        <a href="#beranda">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-content">
+        <p class="eyebrow">Dibuat dengan cinta dan cokelat</p>
+        <h1>Manis di Setiap <span>Gigitan</span></h1>
+        <p class="hero-description">Temukan aneka kue cokelat yang lembut, lezat, dan cocok untuk menemani setiap momen spesialmu.</p>
+        <a class="button button-primary" href="#produk">Lihat Produk</a>
+      </div>
+      <div class="hero-decoration" aria-hidden="true">🍰</div>
+    </section>
+
+    <section class="section container" id="produk">
+      <div class="section-heading">
+        <p class="eyebrow">Pilihan favorit</p>
+        <h2>Menu Dapur Coklat</h2>
+        <p>Dibuat segar dengan bahan pilihan. Berikut contoh produk yang bisa kamu pesan.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-art cake-art" aria-hidden="true">🍰</div>
+          <div class="product-info">
+            <h3>Brownies Cokelat</h3>
+            <p>Brownies lembut dengan rasa cokelat yang kaya.</p>
+            <span class="product-tag">Favorit pelanggan</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-art cupcake-art" aria-hidden="true">🧁</div>
+          <div class="product-info">
+            <h3>Cupcake Cokelat</h3>
+            <p>Kue mungil dengan topping krim yang nikmat.</p>
+            <span class="product-tag">Cocok untuk hadiah</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-art cookies-art" aria-hidden="true">🍪</div>
+          <div class="product-info">
+            <h3>Cookies Choco Chip</h3>
+            <p>Kukis renyah dengan taburan choco chip.</p>
+            <span class="product-tag">Teman santai</span>
+          </div>
+        </article>
+      </div>
+      <p class="note">Catatan: Nama produk dan deskripsi di atas adalah contoh. Silakan sesuaikan dengan menu dan harga asli Dapur Coklat.</p>
+    </section>
+
+    <section class="about-section" id="tentang">
+      <div class="container about-content">
+        <div class="about-icon" aria-hidden="true">🤎</div>
+        <div>
+          <p class="eyebrow">Cerita kami</p>
+          <h2>Tentang Dapur Coklat</h2>
+          <p>Dapur Coklat adalah usaha UMKM yang menghadirkan aneka olahan kue dan camilan bercita rasa cokelat. Kami ingin berbagi kebahagiaan melalui sajian manis untuk keluarga, teman, dan orang tersayang.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="kontak">
+      <p class="eyebrow">Ada yang ingin dipesan?</p>
+      <h2>Hubungi Dapur Coklat</h2>
+      <p>Untuk pemesanan, informasi harga, dan ketersediaan produk, hubungi pemilik usaha melalui kontak resmi.</p>
+      <div class="contact-placeholder">
+        <strong>Kontak pemesanan</strong>
+        <span>Tambahkan nomor WhatsApp, alamat toko, atau akun media sosial resmi di bagian ini.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>© <span id="year">2026</span> Dapur Coklat</span>
+      <span>Dibuat dengan ❤ untuk UMKM lokal</span>
+    </div>
+  </footer>
+</body>
+</html>
 
